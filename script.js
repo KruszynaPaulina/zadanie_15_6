@@ -1,6 +1,3 @@
-const stopwatch = new Stopwatch(
-document.querySelector('.stopwatch'));
-
 var resultList = document.querySelector('.results');
 
 var startButton = document.getElementById('start');
@@ -98,3 +95,5 @@ function pad0(value) {
     return result;
 }
 
+const stopwatch = new Stopwatch(
+document.querySelector('.stopwatch'));
